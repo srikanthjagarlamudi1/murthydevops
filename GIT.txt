@@ -26,3 +26,26 @@ git push origin --delete branchname  // delete the mranch from remote
 git diff
 git revert
 git reset
+
+
+------------------------------------------------------------------------------------------------------------------------
+ANT COMMANDS
+
+ant clean
+ant
+ant compile
+------------------------------------------------------------------------------------------------------------------------
+MAVEN COMMANDS
+
+mvn clean
+mvn compile
+mvn verify
+mvn install
+mvn clean install
+mvn test
+------------------------------------------------------------------------------------------------------------------------
+GRADLE COMMANDS
+
+gradle clean
+gradle assemble
+gradle build

@@ -49,3 +49,59 @@ GRADLE COMMANDS
 gradle clean
 gradle assemble
 gradle build
+
+------------------------------------------------------------------------------------------------------------------------
+Docker Commands
+
+docker info
+docker pull
+docker images
+docker run
+docker ps
+docker ps -a
+docker stop
+docker rm
+
+docker run <image>
+docker run --name=<customname> <image>
+docker run --rm <image>
+docker run --d <image>
+docker run --d -it <image>
+docker run --d -p 4000:4000
+
+
+Examples:
+
+docker pull alpine
+docker run alpine sh
+docker ps -a
+docker run -d  -it alpine sh
+docker run -it alpine sh
+
+ps
+
+docker run -it --name=MyLinux alpine sh
+docker ps -a
+docker stop MyLinux
+docker rm MyLinux
+
+
+docker pull microsoft/nanoserver
+
+docker run -it microsoft/nanoserver cmd
+
+docker run -it microsoft/nanoserver cmd /c echo "some message"
+
+
+docker network ls
+docker inspect nat
+
+docker inspect 
+
+docker pull microsoft/iis:nanoserver
+
+docker run -d microsoft/iis
+
+docker run -d -p 8000:8000 microsoft/iis:nanoserver
+
+docker ps -a

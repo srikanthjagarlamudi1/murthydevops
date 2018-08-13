@@ -1,4 +1,6 @@
-Git COMMANDS
+
+Useful 
+Git COMMANDS:
 ------------------------------------------------------------------------------------------------------------------------
 git config --global user.name "username"
 git config --global user.email "email@example.com"

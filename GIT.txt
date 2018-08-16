@@ -28,7 +28,7 @@ git push origin --delete branchname  // delete the mranch from remote
 git diff
 git revert
 git reset
-
+git resetgit push origin master --force
 
 ------------------------------------------------------------------------------------------------------------------------
 ANT COMMANDS

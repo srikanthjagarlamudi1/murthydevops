@@ -31,6 +31,8 @@ git diff
 git revert
 git reset
 git resetgit push origin master --force
+git log --graph --oneline --decorate
+
 
 ------------------------------------------------------------------------------------------------------------------------
 ANT COMMANDS

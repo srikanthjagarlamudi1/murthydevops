@@ -1,4 +1,5 @@
 
+
 Useful 
 Git COMMANDS:
 ------------------------------------------------------------------------------------------------------------------------
@@ -32,6 +33,9 @@ git revert
 git reset
 git resetgit push origin master --force
 git log --graph --oneline --decorate
+git branch -a
+git checkout -b branchname origin/branchname
+
 
 
 ------------------------------------------------------------------------------------------------------------------------

@@ -13,11 +13,13 @@ git add filename
 git add .
 git commit -m "any message"
 git commit -a -m "anymessage"
+git commit --amend -m "message related commit"
 git push
 git pull
 git log
 git status
 git init
+git remote -v
 git remote add anyname url_of_empty_repository
 git push origin master
 git branch branchname
@@ -30,11 +32,18 @@ git branch -d -r origin/branch_name origin/branch_name origin // to delete the r
 git push origin --delete branchname  // delete the mranch from remote
 git diff
 git revert
+git revert --continue
 git reset
+git reset --hard  // can not able to reset bask
 git resetgit push origin master --force
 git log --graph --oneline --decorate
 git branch -a
 git checkout -b branchname origin/branchname
+git rm --cached "file name"
+git rm "filename"
+git stash  // this stores the unfinished work in a stash, and clean the current branch from uncommited changes
+git stash apply
+git hist  --all
 
 
 

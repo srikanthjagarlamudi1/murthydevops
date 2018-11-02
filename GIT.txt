@@ -41,9 +41,6 @@ git branch -a
 git checkout -b branchname origin/branchname
 git rm --cached "file name"
 git rm "filename"
-git stash  // this stores the unfinished work in a stash, and clean the current branch from uncommited changes
-git stash apply
-git hist  --all
 
 
 

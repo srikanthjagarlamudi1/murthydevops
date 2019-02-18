@@ -41,6 +41,10 @@ git branch -a
 git checkout -b branchname origin/branchname
 git rm --cached "file name"
 git rm "filename"
+git log ID -- find exact commit 
+git reset head !8 - delte 8th commit
+git tag tagname --create tag
+
 
 
 
